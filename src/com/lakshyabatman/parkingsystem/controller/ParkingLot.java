@@ -1,6 +1,6 @@
 package com.lakshyabatman.parkingsystem.controller;
 
-import com.lakshyabatman.exceptions.ParkingLotFullException;
+import com.lakshyabatman.parkingsystem.exceptions.ParkingLotFullException;
 import com.lakshyabatman.parkingsystem.DAO.CarDAO;
 import com.lakshyabatman.parkingsystem.models.ParkingHistory;
 import com.lakshyabatman.parkingsystem.models.ParkingTime;

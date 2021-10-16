@@ -1,7 +1,7 @@
 package com.lakshyabatman.parkingsystem.strategies;
 
-import com.lakshyabatman.exceptions.InvalidParamsException;
-import com.lakshyabatman.exceptions.ParkingLotFullException;
+import com.lakshyabatman.parkingsystem.exceptions.InvalidParamsException;
+import com.lakshyabatman.parkingsystem.exceptions.ParkingLotFullException;
 import com.lakshyabatman.parkingsystem.DAO.CarDAO;
 import com.lakshyabatman.parkingsystem.models.Car;
 import com.lakshyabatman.parkingsystem.models.ParkingMovement;
@@ -11,7 +11,6 @@ import com.lakshyabatman.parkingsystem.repository.CarRepository;
 
 import java.security.InvalidParameterException;
 import java.util.Date;
-import java.util.LinkedList;
 
 public class QueueStrategy implements IStrategy {
 
